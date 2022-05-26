@@ -11,7 +11,7 @@
          return fibo(n-1) + fibo(n-2);
    }
 %>
-<b>Fibonacci Series Abhi: </b><br>
+<b>Fibonacci Series Abhi1: </b><br>
 <% 
    str = request.getParameter("val");
    n = Integer.parseInt(str);
